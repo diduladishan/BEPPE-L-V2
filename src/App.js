@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="overflow-hidden">
       <div className="relative">
-        <div className="absolute top-0 w-full">
+        <div className="absolute top-0  w-full">
           <Navbar />
         </div>
         <LandingSection01 />

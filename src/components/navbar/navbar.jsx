@@ -6,7 +6,7 @@ import twitter from "../assets/navbar/twitter.png";
 
 function Navbar() {
   return (
-    <div className="grid grid-cols-12 bg-[#000] bg-opacity-50  place-items-center py-4">
+    <div className="grid grid-cols-12 bg-[#000] bg-opacity-70  place-items-center py-4">
       <div className="col-span-3">
         <div className="flex items-center gap-1">
           <img src={mainLogo} alt="opensea icon" className="w-[65px]" />

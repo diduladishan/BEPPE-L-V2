@@ -7,7 +7,7 @@ function SectionTwo() {
       <div class="grid grid-cols-2 gap-4 py-16">
         <div className="bg-[#85bcf3] px-16">
           <div>
-            <p className="text-[50px] font-bold">WHAT IS BEPPE?</p>
+            <p className="text-[50px] font-black">WHAT IS BEPPE?</p>
             <p className="text-[20px]">
               Immerse yourself in the mystical world of 'Ethereal Dreams,' a
               mesmerizing digital artwork that transcends the boundaries of
