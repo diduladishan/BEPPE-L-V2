@@ -5,7 +5,7 @@ function SectionTwo() {
   return (
     <div>
       <div class="grid grid-cols-2 gap-4 py-16">
-        <div className="bg-[#85bcf3] px-16">
+        <div className="px-16">
           <div>
             <p className="text-[50px] font-black">WHAT IS BEPPE?</p>
             <p className="text-[20px]">
@@ -19,7 +19,7 @@ function SectionTwo() {
           </div>
         </div>
 
-        <div className="bg-[#9ff385] px-8">
+        <div className="px-8">
           <CarouselComponent />
         </div>
       </div>

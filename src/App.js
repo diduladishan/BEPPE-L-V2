@@ -9,7 +9,7 @@ import SectionFour from "./components/sectionFour/sectionFour";
 
 function App() {
   return (
-    <div className="overflow-hidden">
+    <div className="">
       <div className="relative">
         <div className="absolute top-0  w-full">
           <Navbar />
