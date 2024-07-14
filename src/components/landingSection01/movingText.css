@@ -1,23 +1,27 @@
-/* MovingText.css */
-@keyframes moveRightToLeft {
-  0% {
+.ticker-wrapper {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.ticker-content {
+  display: flex;
+  gap: 10px;
+  animation: scroll 40s linear infinite;
+}
+
+.ticker-content-clone {
+  /* position: absolute;
+  top: 0;
+  left: 100%; */
+}
+
+@keyframes scroll {
+  from {
     transform: translateX(0);
   }
-  100% {
+  to {
     transform: translateX(-100%);
   }
-}
-
-.moving-container {
-  overflow: hidden; /* Ensures text doesn't show outside of its container */
-  white-space: nowrap; /* Prevents text from wrapping */
-  position: relative;
-  width: 100vw; /* Full viewport width */
-}
-
-.moving-text {
-  display: inline-block;
-  animation: moveRightToLeft 600s linear infinite; /* Increased duration to 30s */
-  font-size: 24px; /* Adjust the font size as needed */
-  white-space: nowrap; /* Ensures no line breaks */
 }

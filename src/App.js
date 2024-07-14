@@ -5,17 +5,17 @@ import LandingSection01 from "./components/landingSection01/landingSection01";
 import MovingText from "./components/landingSection01/logoAnimation";
 import SectionTwo from "./components/sectionTwo/sectionTwo";
 import SectionThree from "./components/sectionThree/sectionThree";
+import SectionFour from "./components/sectionFour/sectionFour";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navbar />
       <LandingSection01 />
       {/* <MovingText /> */}
-
       <SectionTwo />
-
       <SectionThree />
+      <SectionFour />
     </div>
   );
 }

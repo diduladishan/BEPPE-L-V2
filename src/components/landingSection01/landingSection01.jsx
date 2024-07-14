@@ -11,10 +11,10 @@ function LandingSection01() {
       <div>
         <img src={backgroundImage} alt="background image" className="" />
       </div>
-
+      {/* 
       <div className="flex items-center gap-2 bg-[#000] border-2 border-indigo-600">
         <p className="font-bold text-[28px] text-white">BEPPE</p>
-      </div>
+      </div> */}
       <MovingText />
     </div>
   );
