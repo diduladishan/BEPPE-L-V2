@@ -10,8 +10,13 @@ import SectionFour from "./components/sectionFour/sectionFour";
 function App() {
   return (
     <div className="overflow-hidden">
-      <Navbar />
-      <LandingSection01 />
+      <div className="relative">
+        <div className="absolute top-0 w-full">
+          <Navbar />
+        </div>
+        <LandingSection01 />
+      </div>
+
       {/* <MovingText /> */}
       <SectionTwo />
       <SectionThree />
