@@ -6,8 +6,15 @@ import MovingText from "./components/landingSection01/logoAnimation";
 import SectionTwo from "./components/sectionTwo/sectionTwo";
 import SectionThree from "./components/sectionThree/sectionThree";
 import SectionFour from "./components/sectionFour/sectionFour";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="">
       <div className="relative">
