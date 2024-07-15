@@ -8,9 +8,22 @@ import bottomBranch from "../assets/landingSection01/bottom-branch.png";
 import leftBranchGroup from "../assets/landingSection01/leftBranchGroup.png";
 import rightBranchGroup from "../assets/landingSection01/rightBranchGroup.png";
 
+import "./test.css";
+
 function LandingSection01() {
   return (
     <div>
+      <div>
+        <div class="page-bg"></div>
+
+        <div class="animation-wrapper">
+          <div class="particle particle-1"></div>
+          <div class="particle particle-2"></div>
+          <div class="particle particle-3"></div>
+          <div class="particle particle-4"></div>
+        </div>
+      </div>
+
       <div className="">
         {/* <div className="absolute top-[-60px] right-0">
           <img src={topBranch} alt="opensea icon" className="w-full" />
