@@ -17,17 +17,19 @@ function App() {
 
   return (
     <div className="">
-      <div className="relative">
+      <Navbar />
+      <LandingSection01 />
+      {/* <div className="relative">
         <div className="absolute top-0  w-full">
           <Navbar />
         </div>
         <LandingSection01 />
-      </div>
+      </div> */}
 
       {/* <MovingText /> */}
-      <SectionTwo />
+      {/* <SectionTwo />
       <SectionThree />
-      <SectionFour />
+      <SectionFour /> */}
     </div>
   );
 }

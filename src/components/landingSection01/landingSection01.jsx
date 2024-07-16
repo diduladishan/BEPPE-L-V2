@@ -13,7 +13,7 @@ import "./test.css";
 function LandingSection01() {
   return (
     <div>
-      <div>
+      {/* <div>
         <div class="page-bg"></div>
 
         <div class="animation-wrapper">
@@ -22,7 +22,7 @@ function LandingSection01() {
           <div class="particle particle-3"></div>
           <div class="particle particle-4"></div>
         </div>
-      </div>
+      </div> */}
 
       <div className="">
         {/* <div className="absolute top-[-60px] right-0">
