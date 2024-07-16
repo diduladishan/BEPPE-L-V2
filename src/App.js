@@ -20,6 +20,8 @@ function App() {
       <Navbar />
       <LandingSection01 />
       <SectionTwo />
+      <SectionThree />
+      <SectionFour />
       {/* <div className="relative">
         <div className="absolute top-0  w-full">
           <Navbar />
