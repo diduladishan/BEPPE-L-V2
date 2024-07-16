@@ -4,7 +4,7 @@ import branchTop from "../assets/sectionThree/branch-top.png";
 
 function SectionThree() {
   return (
-    <div className="">
+    <div className="bg-transparent">
       <div className="relative">
         <img src={backgroundImage} alt="background image" className="" />
 

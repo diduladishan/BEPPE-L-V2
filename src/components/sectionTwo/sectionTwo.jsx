@@ -12,7 +12,7 @@ function SectionTwo() {
     <div className="2xl:px-16 xl:px-15 lg:px-13 md:px-12 sm:px-10 px-8">
       <div class="grid grid-cols-2 2xl:gap-16 xl:gap-14 lg:gap-12 md:gap-10 sm:gap-8 gap-6 py-16">
         <div className="2xl:col-span-1 xl:col-span-1 lg:col-span-2 md:col-span-2 sm:col-span-2 col-span-2">
-          <div className="bg-[#a2e969]">
+          <div>
             <div
               data-aos="fade-right"
               data-aos-easing="linear"
@@ -35,7 +35,7 @@ function SectionTwo() {
         </div>
 
         <div
-          className="px-8 bg-[#e9c169] 2xl:col-span-1 xl:col-span-1 lg:col-span-2 md:col-span-2 sm:col-span-2 col-span-2"
+          className="px-8 2xl:col-span-1 xl:col-span-1 lg:col-span-2 md:col-span-2 sm:col-span-2 col-span-2"
           data-aos="fade-left"
           data-aos-easing="linear"
           data-aos-duration="1500"
