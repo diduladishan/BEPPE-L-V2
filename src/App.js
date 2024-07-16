@@ -9,6 +9,9 @@ import SectionFour from "./components/sectionFour/sectionFour";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import TextAnimation from "./components/roadmap/roadmap";
+import AnimatedText from "./components/roadmap/roadmap";
+import Roadmap from "./components/roadmap/roadmap";
 
 function App() {
   useEffect(() => {
@@ -22,6 +25,8 @@ function App() {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
+
+      <Roadmap />
       {/* <div className="relative">
         <div className="absolute top-0  w-full">
           <Navbar />
