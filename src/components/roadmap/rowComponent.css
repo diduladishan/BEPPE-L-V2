@@ -1,0 +1,10 @@
+/* styles.css */
+/* styles.css */
+.background-example {
+  background-image: url("../assets/roadmap/background-mush3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Makes the background image fixed */
+  width: 100%;
+}

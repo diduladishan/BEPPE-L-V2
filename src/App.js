@@ -24,7 +24,7 @@ function App() {
       <LandingSection01 />
       <SectionTwo />
       <SectionThree />
-      <SectionFour />
+      {/* <SectionFour /> */}
 
       <Roadmap />
       {/* <div className="relative">
