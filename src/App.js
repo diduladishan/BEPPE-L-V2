@@ -14,6 +14,7 @@ import AnimatedText from "./components/roadmap/roadmap";
 import Roadmap from "./components/roadmap/roadmap";
 import NftCarousel from "./components/nftCarousel/nftCarousel";
 import Carousel from "./components/nftCarousel/nftCarousel";
+import Accordion from "./components/faq/faq";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
       <SectionTwo />
       <SectionThree />
       <Carousel />
+      <Accordion />
     </div>
   );
 }

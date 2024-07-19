@@ -61,15 +61,23 @@ const Carousel = () => {
   };
 
   return (
-    <CarouselWrapper>
-      <Slider {...settings}>
-        {images.map((image, index) => (
-          <div key={index}>
-            <img src={image} alt={`Carousel ${index}`} />
-          </div>
-        ))}
-      </Slider>
-    </CarouselWrapper>
+    <div>
+      <div className="flex items-center justify-center my-[100px]">
+        <p className="text-[160px] font-black text-white text-center bg-[#000] w-max">
+          NFT COLLECTION
+        </p>
+      </div>
+
+      <CarouselWrapper>
+        <Slider {...settings}>
+          {images.map((image, index) => (
+            <div key={index}>
+              <img src={image} alt={`Carousel ${index}`} />
+            </div>
+          ))}
+        </Slider>
+      </CarouselWrapper>
+    </div>
   );
 };
 
