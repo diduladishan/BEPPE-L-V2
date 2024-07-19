@@ -15,7 +15,7 @@ import Roadmap from "./components/roadmap/roadmap";
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ duration: 1000, once: true });
   }, []);
 
   return (
