@@ -14,8 +14,6 @@ const Navbar = () => {
   return (
     <nav className="bg-[#040b25] p-4 bg-opacity-70 fixed w-full">
       <div className="container mx-auto flex justify-between items-center">
-        {/* <div className="text-white text-lg font-bold">MyLogo</div> */}
-
         <div className="flex items-center gap-1">
           <img src={mainLogo} alt="opensea icon" className="w-[55px]" />
           <p className="text-[35px] text-[#fff] font-semibold">BEPPELOGO</p>

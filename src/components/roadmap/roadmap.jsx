@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import TextReveal from "text-reveal";
+// import TextReveal from "text-reveal";
 import "./rowComponent.css";
 
 function Roadmap() {
@@ -10,12 +10,12 @@ function Roadmap() {
   }, []);
   return (
     <div className="background-example">
-      <div className="flex items-center justify-center pt-52">
+      {/* <div className="flex items-center justify-center pt-52">
         <div
           className=""
           style={{
             fontSize: "15rem",
-            backgroundColor: "rgba(0, 0, 0, 0.7)", // 50% transparent black background
+            backgroundColor: "rgba(0, 0, 0, 0.7)",
             fontWeight: 700,
             paddingLeft: "50px",
             paddingRight: "50px",
@@ -28,14 +28,8 @@ function Roadmap() {
             fillDelay={10}
             fillSpeed={200}
           />
-
-          {/* <img
-            src={sandClockImg}
-            alt="background image"
-            className="absolute bottom-[-90px] left-[-90px] w-[170px] rotate-12"
-          /> */}
         </div>
-      </div>
+      </div> */}
 
       <div
         className="flex items-center mt-[200px] mb-[230px]"
@@ -44,7 +38,7 @@ function Roadmap() {
       >
         <div className="bg-[#000] w-max bg-opacity-50">
           <p className="text-[80px] font-semibold text-white px-[160px] py-[35px]">
-            PHASE 1
+            PHASE 01
           </p>
         </div>
 
