@@ -12,6 +12,8 @@ import { useEffect } from "react";
 import TextAnimation from "./components/roadmap/roadmap";
 import AnimatedText from "./components/roadmap/roadmap";
 import Roadmap from "./components/roadmap/roadmap";
+import NftCarousel from "./components/nftCarousel/nftCarousel";
+import Carousel from "./components/nftCarousel/nftCarousel";
 
 function App() {
   useEffect(() => {
@@ -24,20 +26,7 @@ function App() {
       <LandingSection01 />
       <SectionTwo />
       <SectionThree />
-      {/* <SectionFour /> */}
-
-      <Roadmap />
-      {/* <div className="relative">
-        <div className="absolute top-0  w-full">
-          <Navbar />
-        </div>
-        <LandingSection01 />
-      </div> */}
-
-      {/* <MovingText /> */}
-      {/* <SectionTwo />
-      <SectionThree />
-      <SectionFour /> */}
+      <Carousel />
     </div>
   );
 }
