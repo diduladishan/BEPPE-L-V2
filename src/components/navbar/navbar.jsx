@@ -22,33 +22,45 @@ const Navbar = () => {
         <div className="hidden lg:flex lg:items-center lg:space-x-16 text-[26px] font-semibold">
           <a
             href="#"
-            className="block lg:inline-block lg:mt-0 text-white hover:text-gray-300"
+            className="block lg:inline-block lg:mt-0 text-white transform hover:scale-125 transition-all"
           >
             Home
           </a>
           <a
             href="#"
-            className="block lg:inline-block lg:mt-0 text-white hover:text-gray-300"
+            className="block lg:inline-block lg:mt-0 text-white hover:text-gray-300 transform hover:scale-125 transition-all"
           >
             Mint
           </a>
           <a
             href="#"
-            className="block lg:inline-block lg:mt-0 text-white hover:text-gray-300"
+            className="block lg:inline-block lg:mt-0 text-white hover:text-gray-300 transform hover:scale-125 transition-all"
           >
             Wallet
           </a>
           <a
             href="#"
-            className="block lg:inline-block lg:mt-0 text-white hover:text-gray-300"
+            className="block lg:inline-block lg:mt-0 text-white hover:text-gray-300 transform hover:scale-125 transition-all"
           >
             RoadMap
           </a>
         </div>
         <div className="hidden lg:flex items-center gap-6">
-          <img src={openSea} alt="opensea icon" className="w-[45px]" />
-          <img src={telegram} alt="telegram icon" className="w-[45px]" />
-          <img src={twitter} alt="twitter icon" className="w-[45px]" />
+          <img
+            src={openSea}
+            alt="opensea icon"
+            className="w-[45px] transform cursor-pointer hover:scale-125 transition-transform duration-200 ease-in-out"
+          />
+          <img
+            src={telegram}
+            alt="telegram icon"
+            className="w-[45px] transform cursor-pointer hover:scale-125 transition-transform duration-200 ease-in-out"
+          />
+          <img
+            src={twitter}
+            alt="twitter icon"
+            className="w-[45px] transform cursor-pointer hover:scale-125 transition-transform duration-200 ease-in-out"
+          />
         </div>
         <div className="block lg:hidden">
           <button
@@ -81,33 +93,45 @@ const Navbar = () => {
       >
         <a
           href="#"
-          className="block mt-2 text-white border-t-[1px] border-[#d34a1a] h-[60px] flex items-center font-semibold"
+          className="block mt-2 text-white border-t-[1px] border-[#d34a1a] h-[60px] flex items-center font-semibold hover:text-gray-400 transition-colors duration-300"
         >
           Home
         </a>
         <a
           href="#"
-          className="block mt-2 text-white border-t-[1px] border-[#d34a1a] h-[60px] flex items-center font-semibold"
+          className="block mt-2 text-white border-t-[1px] border-[#d34a1a] h-[60px] flex items-center font-semibold hover:text-gray-400 transition-colors duration-300"
         >
           Mint
         </a>
         <a
           href="#"
-          className="block mt-2 text-white border-t-[1px] border-[#d34a1a] h-[60px] flex items-center font-semibold"
+          className="block mt-2 text-white border-t-[1px] border-[#d34a1a] h-[60px] flex items-center font-semibold hover:text-gray-400 transition-colors duration-300"
         >
           Wallet
         </a>
         <a
           href="#"
-          className="block mt-2 text-white border-t-[1px] border-[#d34a1a] h-[60px] flex items-center font-semibold"
+          className="block mt-2 text-white border-t-[1px] border-[#d34a1a] h-[60px] flex items-center font-semibold hover:text-gray-400 transition-colors duration-300"
         >
           RoadMap
         </a>
 
-        <div className="flex items-center gap-6 border-t-[1px] border-[#d34a1a] h-[60px]">
-          <img src={openSea} alt="opensea icon" className="w-[30px]" />
-          <img src={telegram} alt="telegram icon" className="w-[30px]" />
-          <img src={twitter} alt="twitter icon" className="w-[30px]" />
+        <div className="flex items-center gap-6 border-t-[1px] border-[#d34a1a] h-[60px] ps-1">
+          <img
+            src={openSea}
+            alt="opensea icon"
+            className="w-[30px] transform cursor-pointer hover:scale-125 transition-transform duration-200 ease-in-out"
+          />
+          <img
+            src={telegram}
+            alt="telegram icon"
+            className="w-[30px] transform cursor-pointer hover:scale-125 transition-transform duration-200 ease-in-out"
+          />
+          <img
+            src={twitter}
+            alt="twitter icon"
+            className="w-[30px] transform cursor-pointer hover:scale-125 transition-transform duration-200 ease-in-out"
+          />
         </div>
       </div>
     </nav>
