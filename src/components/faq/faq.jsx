@@ -13,10 +13,12 @@ const AccordionItem = ({ title, content }) => {
   return (
     <div className="accordion">
       <div className="accordion-header" onClick={toggleAccordion}>
-        <h3 className="font-semibold text-[24px]">{title}</h3>
+        <h3 className="font-semibold lg:text-[24px] md:text-[20px]">{title}</h3>
         <div>{isOpen ? <MdKeyboardControlKey /> : <MdKeyboardArrowDown />}</div>
       </div>
-      {isOpen && <div className="accordion-content">{content}</div>}
+      {isOpen && (
+        <div className="accordion-content text-sm md:text-base">{content}</div>
+      )}
     </div>
   );
 };
@@ -25,7 +27,7 @@ const Accordion = () => {
   return (
     <div>
       <div className="flex items-center justify-center my-[100px]">
-        <p className="text-[160px] font-black text-white text-center bg-[#000] w-max px-16">
+        <p className="font-black text-white text-center bg-[#000] w-max px-16 text-[35px] md:text-[70px] lg:text-[88px] xl:text-[125px] 2xl:text-[160px]">
           FAQ
         </p>
       </div>
