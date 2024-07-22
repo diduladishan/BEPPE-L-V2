@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#040b25] p-4 bg-opacity-70 fixed w-full">
+    <nav className="bg-[#040b25] p-4 bg-opacity-70 w-full">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center gap-1">
           <img src={mainLogo} alt="opensea icon" className="w-[55px]" />

@@ -8,6 +8,7 @@ function Roadmap() {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <div className="background-example">
       {/* <div className="flex items-center justify-center pt-52">
