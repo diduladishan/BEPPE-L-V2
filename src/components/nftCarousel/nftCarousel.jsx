@@ -57,7 +57,7 @@ const Carousel = () => {
     arrows: false,
     pauseOnHover: false,
     centerMode: false,
-    slidesToShow: 4,
+    slidesToShow: 6,
   };
 
   return (
