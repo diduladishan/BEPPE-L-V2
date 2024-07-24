@@ -27,7 +27,7 @@ const Accordion = () => {
   return (
     <div>
       <div className="flex items-center justify-center my-[100px]">
-        <p className="font-black text-white text-center bg-[#000] w-max px-16 text-[35px] md:text-[70px] lg:text-[88px] xl:text-[125px] 2xl:text-[160px]">
+        <p className="font-black text-white text-center bg-[#000] w-max px-16 text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px]">
           FAQ
         </p>
       </div>
