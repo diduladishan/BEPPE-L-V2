@@ -22,7 +22,7 @@ const CarouselWrapper = styled.div`
   overflow: hidden;
 
   .slick-slide img {
-    width: 300px; /* Set image width */
+    width: 400px; /* Set image width */
     height: auto; /* Maintain aspect ratio */
   }
 
@@ -57,7 +57,7 @@ const Carousel = () => {
     arrows: false,
     pauseOnHover: false,
     centerMode: false,
-    slidesToShow: 6,
+    slidesToShow: 4,
   };
 
   return (
