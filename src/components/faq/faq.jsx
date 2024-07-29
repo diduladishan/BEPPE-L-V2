@@ -47,7 +47,7 @@ const Accordion = () => {
             content="Content for What is the mint price?"
           />
           <AccordionItem
-            title="Will there be more collection releases?"
+            title="Will there be more collection release?"
             content="Content for Will there be more collection releases?"
           />
         </div>
