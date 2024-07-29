@@ -15,6 +15,7 @@ import Roadmap from "./components/roadmap/roadmap";
 import NftCarousel from "./components/nftCarousel/nftCarousel";
 import Carousel from "./components/nftCarousel/nftCarousel";
 import Accordion from "./components/faq/faq";
+import Intro from "./components/intro/intro";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="overflow-hidden">
+      <Intro />
       <Navbar />
       <LandingSection01 />
       <SectionTwo />
