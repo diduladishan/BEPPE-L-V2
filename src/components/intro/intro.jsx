@@ -19,7 +19,7 @@ function Intro() {
 
   // Calculate the transform value based on scroll position
   const maxScroll = 1800; // Maximum scroll value at which the doors are fully open
-  const leftTransform = Math.min((scrollY / maxScroll) * 100, 100); // Percentage from 0% to 100%
+  const leftTransform = Math.min((scrollY / maxScroll) * 100, 100); // Percentage from 0% to the 100%
   const rightTransform = Math.min((scrollY / maxScroll) * 100, 100); // Percentage from 0% to 100%
 
   return (
