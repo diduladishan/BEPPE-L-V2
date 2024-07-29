@@ -36,7 +36,7 @@ const Accordion = () => {
         <div className="container">
           <AccordionItem
             title="What is Galactic Goddess?"
-            content="Content for What is Galactic Goddess?"
+            content="Content for the What is Galactic Goddess?"
           />
           <AccordionItem
             title="When is the landing taking place?"
