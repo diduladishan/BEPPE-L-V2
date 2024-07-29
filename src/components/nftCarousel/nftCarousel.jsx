@@ -22,7 +22,7 @@ const CarouselWrapper = styled.div`
   overflow: hidden;
 
   .slick-slide img {
-    width: 400px; /* Set image width */
+    width: 450px; /* Set image width */
     height: auto; /* Maintain aspect ratio */
   }
 
@@ -49,21 +49,46 @@ const Carousel = () => {
   const settings = {
     infinite: true,
     speed: 5000,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
     cssEase: "linear",
     arrows: false,
-    pauseOnHover: false,
+    pauseOnHover: true,
     centerMode: false,
-    slidesToShow: 6,
+    responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+    ],
   };
 
   return (
     <div>
       <div className="flex items-center justify-center my-[100px]">
-        <p className="text-[160px] font-black text-white text-center bg-[#000] w-max">
+        <p className="font-black text-white text-center bg-[#000] w-max px-16 text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px]">
           NFT COLLECTION
         </p>
       </div>
