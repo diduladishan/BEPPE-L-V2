@@ -19,7 +19,7 @@ import Intro from "./components/intro/intro";
 
 function App() {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({ duration: 1000, once: false });
   }, []);
 
   return (
