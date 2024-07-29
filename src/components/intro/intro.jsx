@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import doorLeft from "../assets/intro";
+import doorLeft from "../assets/intro/door-left.png";
 import doorRight from "../assets/intro/door-right.png";
 
 function Intro() {
