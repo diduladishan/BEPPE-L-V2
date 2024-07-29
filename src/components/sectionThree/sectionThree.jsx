@@ -1,6 +1,5 @@
 import React from "react";
-import backgroundImage from "../assets/sectionThree/backgroundThree2.png";
-import branchTop from "../assets/sectionThree/branch-top.png";
+import backgroundImage from "../assets/sectionThree/backgroundThree3.png";
 
 function SectionThree() {
   return (
