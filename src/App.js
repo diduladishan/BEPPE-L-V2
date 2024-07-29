@@ -16,6 +16,7 @@ import NftCarousel from "./components/nftCarousel/nftCarousel";
 import Carousel from "./components/nftCarousel/nftCarousel";
 import Accordion from "./components/faq/faq";
 import Intro from "./components/intro/intro";
+import Footer from "./components/footer/footer";
 
 function App() {
   useEffect(() => {
@@ -24,13 +25,14 @@ function App() {
 
   return (
     <div className="overflow-hidden">
-      <Intro />
+      {/* <Intro /> */}
       <Navbar />
       <LandingSection01 />
       <SectionTwo />
       <SectionThree />
       <Carousel />
       <Accordion />
+      <Footer />
     </div>
   );
 }
