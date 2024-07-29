@@ -58,7 +58,7 @@ function LandingSection01() {
           <img src={rightBranchGroup} alt="opensea icon" className="w-full" />
         </div> */}
         <div
-          className="absolute top-0 right-0"
+          className="absolute top-0 right-0 z-10"
           data-aos="fade-right"
           data-aos-duration="2000"
           data-aos-delay="2000"
@@ -66,7 +66,7 @@ function LandingSection01() {
           <img src={maleCharacter} alt="opensea icon" className="w-full" />
         </div>
         <div
-          className="absolute top-0 right-0"
+          className="absolute top-0 right-0 z-10"
           data-aos="fade-left"
           data-aos-duration="2000"
           data-aos-delay="2000"
@@ -74,20 +74,20 @@ function LandingSection01() {
           <img src={femaleCharacter} alt="opensea icon" className="w-full" />
         </div>
         <div
-          className="absolute top-0 right-0"
+          className="absolute top-0 right-0 z-20"
           data-aos="slide-right"
           data-aos-delay="500"
         >
           <img src={leftGrass} alt="opensea icon" className="w-full" />
         </div>
         <div
-          className="absolute top-0 right-0"
+          className="absolute top-0 right-0 z-20"
           data-aos="slide-left"
           data-aos-delay="1000"
         >
           <img src={rightGrass} alt="opensea icon" className="w-full" />
         </div>
-        <div className="absolute top-0 right-0" data-aos="slide-down">
+        <div className="absolute top-0 right-0 -z-0" data-aos="slide-down">
           <img src={upperGrass} alt="opensea icon" className="w-full" />
         </div>
         <div
