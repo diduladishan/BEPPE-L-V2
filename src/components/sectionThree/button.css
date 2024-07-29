@@ -1,0 +1,11 @@
+.button-1 {
+  border: 3px solid #dce86a;
+  border-radius: 50px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  color: #dce86a;
+}
+.button-1:hover {
+  box-shadow: 0 0 10px 0 #dce86a inset, 0 0 20px 2px #dce86a;
+  border: 3px solid #dce86a;
+}
