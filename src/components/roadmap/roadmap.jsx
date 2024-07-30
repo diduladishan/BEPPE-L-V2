@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import TextReveal from "text-reveal";
+
 import "./rowComponent.css";
 
 function Roadmap() {
@@ -11,27 +11,6 @@ function Roadmap() {
 
   return (
     <div className="background-example">
-      {/* <div className="flex items-center justify-center pt-52">
-        <div
-          className=""
-          style={{
-            fontSize: "15rem",
-            backgroundColor: "rgba(0, 0, 0, 0.7)",
-            fontWeight: 700,
-            paddingLeft: "50px",
-            paddingRight: "50px",
-          }}
-        >
-          <TextReveal
-            text={["ROADMAP "]}
-            textColor="black"
-            fillColor="white"
-            fillDelay={10}
-            fillSpeed={200}
-          />
-        </div>
-      </div> */}
-
       <div
         className="flex items-center mt-[200px] mb-[230px]"
         data-aos="fade-right"

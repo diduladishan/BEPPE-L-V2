@@ -11,12 +11,6 @@
   animation: scroll 40s linear infinite;
 }
 
-.ticker-content-clone {
-  /* position: absolute;
-  top: 0;
-  left: 100%; */
-}
-
 @keyframes scroll {
   from {
     transform: translateX(0);

@@ -15,7 +15,6 @@ const Navbar = () => {
     <nav className="bg-gradient-to-tl from-[#873f19] via-[#cea819] to-[#ffd700] p-4 w-full">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center gap-1">
-          {/* <img src={mainLogo} alt="opensea icon" className="w-[55px]" /> */}
           <p className="text-[35px] text-[#fff] font-semibold">BEPPELOGO</p>
         </div>
 

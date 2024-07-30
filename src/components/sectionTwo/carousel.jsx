@@ -16,7 +16,6 @@ const CarouselComponent = () => {
 
   return (
     <div>
-      {/* <h2> Carousel Example </h2> */}
       <Slider {...settings}>
         <div className="p-4">
           <img src={carouselSlide01} alt="background image" className="" />
