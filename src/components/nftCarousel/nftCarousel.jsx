@@ -59,27 +59,15 @@ const Carousel = () => {
     centerMode: false,
     responsive: [
       {
-        breakpoint: 640,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-        },
-      },
-      {
         breakpoint: 1280,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
         },
       },
     ],
@@ -87,8 +75,8 @@ const Carousel = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-center my-[100px] ">
-        <p className="font-black text-[#652f46] text-center w-max px-16 text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] border-4 border-[#364e38] rounded-lg">
+      <div className="flex items-center justify-center my-[50px] sm:my-[75px] md:my-[100px]">
+        <p className="font-black text-[#652f46] text-center w-max mx-[16px] px-[16px] text-[18px] sm:text-[38px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] border-4 border-[#364e38] rounded-lg">
           NFT Collection
         </p>
       </div>
