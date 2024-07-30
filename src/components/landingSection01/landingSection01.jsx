@@ -23,9 +23,7 @@ import "./test.css";
 
 function LandingSection01() {
   useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
+    AOS.init({ duration: 1000, once: false });
   }, []);
 
   return (

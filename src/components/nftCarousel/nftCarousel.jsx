@@ -89,7 +89,7 @@ const Carousel = () => {
     <div>
       <div className="flex items-center justify-center my-[100px] ">
         <p className="font-black text-[#652f46] text-center w-max px-16 text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] border-4 border-[#364e38] rounded-lg">
-          NFT COLLECTION
+          NFT Collection
         </p>
       </div>
 

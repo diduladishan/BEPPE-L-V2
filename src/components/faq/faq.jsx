@@ -1,57 +1,73 @@
-// src/Accordion.js
 import React, { useState } from "react";
 import "./faq.css";
-import { MdKeyboardArrowDown, MdKeyboardControlKey } from "react-icons/md";
 
 const AccordionItem = ({ title, content }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleAccordion = () => {
-    setIsOpen(!isOpen);
-  };
+  const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className="accordion">
-      <div className="accordion-header" onClick={toggleAccordion}>
-        <h3 className="font-semibold lg:text-[24px] md:text-[20px]">{title}</h3>
-        <div>{isOpen ? <MdKeyboardControlKey /> : <MdKeyboardArrowDown />}</div>
+    <div className="accordion-item">
+      <div
+        className={`accordion-item-header ${isActive ? "active" : ""}`}
+        onClick={() => setIsActive(!isActive)}
+      >
+        {title}
       </div>
-      {isOpen && (
-        <div className="accordion-content text-sm md:text-base">{content}</div>
-      )}
+      <div
+        className="accordion-item-body"
+        style={{
+          maxHeight: isActive
+            ? `${
+                document.querySelector(".accordion-item-body-content")
+                  .scrollHeight
+              }px`
+            : "0",
+        }}
+      >
+        <div className="accordion-item-body-content">{content}</div>
+      </div>
     </div>
   );
 };
 
 const Accordion = () => {
+  const items = [
+    {
+      title: "What is Galactic Goddess?",
+      content: `Content for the What is Galactic Goddess?`,
+    },
+    {
+      title: "When is the landing taking place?",
+      content: `Content for When is the landing taking place?`,
+    },
+
+    {
+      title: "What is the mint price?",
+      content: `Content for What is the mint price?`,
+    },
+
+    {
+      title: "Will there be more collection release?",
+      content: `Content for Will there be more collection releases?`,
+    },
+  ];
+
   return (
     <div>
+      {" "}
       <div className="flex items-center justify-center my-[100px] ">
         <p className="font-black text-[#652f46] text-center w-max px-16 text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] border-4 border-[#364e38] rounded-lg">
           Frequently Asked Questions
         </p>
       </div>
-
-      <div className="flex items-center justify-center mb-[50px]">
-        <div className="container">
+      <div className="accordion">
+        {items.map((item, index) => (
           <AccordionItem
-            title="What is Galactic Goddess?"
-            content="Content for the What is Galactic Goddess?"
+            key={index}
+            title={item.title}
+            content={item.content}
           />
-          <AccordionItem
-            title="When is the landing taking place?"
-            content="Content for When is the landing taking place?"
-          />
-          <AccordionItem
-            title="What is the mint price?"
-            content="Content for What is the mint price?"
-          />
-          <AccordionItem
-            title="Will there be more collection release?"
-            content="Content for Will there be more collection releases?"
-          />
-        </div>
-      </div>
+        ))}
+      </div>{" "}
     </div>
   );
 };
