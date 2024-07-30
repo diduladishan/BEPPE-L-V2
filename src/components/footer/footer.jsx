@@ -30,7 +30,7 @@ function Footer() {
 
         <div>
           <p className="text-white text-[20px]">
-            Copyright © 2023 FROG CHAIN. All Rights Reserved
+            Copyright © 2024 BEPPE. All Rights Reserved
           </p>
         </div>
       </div>

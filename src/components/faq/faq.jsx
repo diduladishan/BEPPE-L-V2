@@ -52,15 +52,22 @@ const Accordion = () => {
   ];
 
   return (
-    <div className="accordion">
+    <div>
+      {" "}
       <div className="flex items-center justify-center my-[100px] ">
         <p className="font-black text-[#652f46] text-center w-max px-16 text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] border-4 border-[#364e38] rounded-lg">
-          NFT COLLECTION
+          Frequently Asked Questions
         </p>
       </div>
-      {items.map((item, index) => (
-        <AccordionItem key={index} title={item.title} content={item.content} />
-      ))}
+      <div className="accordion">
+        {items.map((item, index) => (
+          <AccordionItem
+            key={index}
+            title={item.title}
+            content={item.content}
+          />
+        ))}
+      </div>{" "}
     </div>
   );
 };
