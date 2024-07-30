@@ -52,10 +52,9 @@ const Accordion = () => {
   ];
 
   return (
-    <div>
-      {" "}
-      <div className="flex items-center justify-center my-[100px] ">
-        <p className="font-black text-[#652f46] text-center w-max px-16 text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] border-4 border-[#364e38] rounded-lg">
+    <div className="my-[50px] sm:my-[75px] md:my-[100px]">
+      <div className="flex items-center justify-center my-[50px] sm:my-[75px] md:my-[100px]">
+        <p className="font-black text-[#652f46] text-center w-max mx-[16px] px-[16px] text-[18px] sm:text-[38px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] border-4 border-[#364e38] rounded-lg">
           Frequently Asked Questions
         </p>
       </div>
@@ -67,7 +66,7 @@ const Accordion = () => {
             content={item.content}
           />
         ))}
-      </div>{" "}
+      </div>
     </div>
   );
 };
