@@ -8,7 +8,7 @@ import femaleCharacter from "../assets/romeo/female-character.png";
 import leftGrass from "../assets/romeo/left-grass.png";
 import rightGrass from "../assets/romeo/right-grass.png";
 import upperGrass from "../assets/romeo/upper-grass.png";
-import topic from "../assets/romeo/topic.png";
+import topic from "../assets/romeo/topic2.png";
 
 function LandingSection01() {
   useEffect(() => {

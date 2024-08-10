@@ -6,7 +6,9 @@ import twitter from "../assets/navbar/twitter.png";
 function Footer() {
   return (
     <div className="bg-black pt-16 pb-8">
-      <p className="text-[55px] text-[#98979d] font-black text-center">LOGO</p>
+      <p className="text-[55px] text-[#98979d] font-black text-center">
+        Casanova
+      </p>
       <p className="text-[55px] text-[#98979d] font-black text-center">BEPPE</p>
 
       <div className="flex flex-col lg:flex-row lg:justify-between items-center px-12">
@@ -29,7 +31,7 @@ function Footer() {
         </div>
         <div>
           <p className="text-white text-[20px] text-center lg:text-right">
-            Copyright © 2024 BEPPE. All Rights Reserved
+            Copyright © 2024 Casanova Beppe. All Rights Reserved
           </p>
         </div>
       </div>
